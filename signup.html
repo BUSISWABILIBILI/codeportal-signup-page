@@ -26,7 +26,12 @@
 
         <div class="credit">
           Photo by
-          <a href="https://unsplash.com/@cgower">Christopher Gower</a>
+          <a
+            href="https://unsplash.com/@cgower"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Christopher Gower</a
+          >
           on Unsplash
         </div>
       </div>
@@ -54,12 +59,12 @@
             <div class="form-grid">
               <div>
                 <label>FIRST NAME</label>
-                <input type="text" required />
+                <input type="text" required minlength="3" />
               </div>
 
               <div>
                 <label>LAST NAME</label>
-                <input type="text" required />
+                <input type="text" required minlength="3" />
               </div>
 
               <div>
@@ -69,7 +74,7 @@
 
               <div>
                 <label>PHONE NUMBER</label>
-                <input type="tel" />
+                <input type="tel" minlength="10" maxlength="10" />
               </div>
 
               <div>
@@ -90,11 +95,10 @@
 
           <p>
             Already registered?
-            <a href="#">Log in</a>
+            <a href="login.html">Log in</a>
           </p>
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>
