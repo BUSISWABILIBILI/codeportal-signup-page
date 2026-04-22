@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodePortal Login</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- LEFT SIDE (same as signup) -->
+      <div class="left-panel">
+        <div class="logo-box">
+          <img src="images/logo.png" alt="CodePortal Logo" />
+          <p>Developer Access Network</p>
+        </div>
+
+        <div class="credit">
+          Photo by
+          <a
+            href="https://unsplash.com/@cgower"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Christopher Gower</a
+          >
+          on Unsplash
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="right-panel">
+        <div class="intro">
+          <p>Welcome back to CodePortal.</p>
+
+          <p>
+            Sign in to continue building, deploying, and managing your projects.
+          </p>
+
+          <p><strong>Let’s get you back in.</strong></p>
+        </div>
+
+        <div class="form-section">
+          <h2>Login to Your Account</h2>
+
+          <form>
+            <div class="form-grid single-column">
+              <div>
+                <label>EMAIL ADDRESS</label>
+                <input type="email" required />
+              </div>
+
+              <div>
+                <label>PASSWORD</label>
+                <input type="password" required minlength="6" />
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="bottom-section">
+          <button>Login</button>
+
+          <p>
+            Don’t have an account?
+            <a href="signup.html">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

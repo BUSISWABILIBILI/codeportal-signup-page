@@ -156,6 +156,10 @@ button:hover {
   font-weight: 600;
 }
 
+.single-column {
+  grid-template-columns: 1fr;
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
